@@ -2,7 +2,7 @@
   "name": "chuck",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Lynx-Lynx.github.io/chuck_API",
+  "homepage": "https://Lynx-Lynx.github.io/chuck",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
