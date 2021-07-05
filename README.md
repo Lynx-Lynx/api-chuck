@@ -1,1 +1,1 @@
-This app was built using Chuck Norris API (https://api.chucknorris.io/).
+This app was built via React and Chuck Norris API (https://api.chucknorris.io/).
