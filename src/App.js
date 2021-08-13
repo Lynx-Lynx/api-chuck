@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
-import './components/button.style.css';
+import Header from './components/header';
+import './styles/App.css';
+import './styles/button.style.css';
 import { Card } from './components/card.component';
 
 class App extends Component {
@@ -28,9 +29,9 @@ class App extends Component {
     const { fact } = this.state;
     return (
       <div className="App">
-      <h1>Retrieve a random chuck joke</h1>
-      <button className='button' onClick={this.handleClick}>Go!</button>
+      <Header />
       <Card fact={fact}/>
+      <button className='button' onClick={this.handleClick}>Go!</button>
       </div>
     );
   }
