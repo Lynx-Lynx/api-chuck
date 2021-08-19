@@ -5,11 +5,8 @@
 	background-color: rgba(190, 221, 241, 0.5); 
 	margin-top: 2em;
 	width: 50%;
-	height: 60vh;
+	height: auto;
 	box-shadow: 0 5px 10px 0 #023047, 0 8px 20px 0 #023047; 
-	font-family: 'Press Start 2P', sans-serif;
-	font-size: 1rem;
-	text-shadow: 1px 1px 3px white;
 	-moz-osx-font-smoothing: grayscale;
 	backface-visibility: hidden;
 	transform: translateZ(0);
@@ -28,12 +25,27 @@
 	height: 300px;
 }
 
+.info {
+	padding: 10px;
+	font-weight: 700;
+	font-size: 1.5rem;
+	text-shadow: 2px 2px 4px black;
+}
+
 @media only screen and (max-width: 850px) {
   .card-container {
     font-size: 14px;
-    width: 50vh;
-    min-width: 400px;
-    height: 50%;
-  	/*min-height: 70vh;*/
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-height: 700px) {
+  .card-container {
+    font-size: 14px;
+  }
+  .image {
+  	width: 200px;
+		height: 200px;
   }
 }

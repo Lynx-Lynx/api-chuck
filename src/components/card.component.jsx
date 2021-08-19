@@ -6,6 +6,6 @@ export const Card = (props) => (
         <img alt='chuck' 
         className='image'
         src={`https://i.ibb.co/r4rjNBw/chuck.png`} />
-        <h2> {props.fact.value} </h2>
+        <h2 className='info'> {props.fact.value} </h2>
     </div>
 )

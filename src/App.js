@@ -28,11 +28,13 @@ class App extends Component {
   render() {
     const { fact } = this.state;
     return (
-      <div className="App">
+      <>
       <Header />
+      <div className="App">
       <Card fact={fact}/>
       <button className='button' onClick={this.handleClick}>Go!</button>
       </div>
+      </>
     );
   }
 } 
