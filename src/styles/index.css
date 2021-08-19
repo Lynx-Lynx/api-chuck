@@ -4,7 +4,9 @@ body {
   font-family: 'Titillium Web', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('nasa.jpg') no-repeat fixed center;
+  text-align: center;
+  color: white;
+  background: url('../img/nasa.jpg') no-repeat fixed center;
   background-size: сontain;
 
 }
