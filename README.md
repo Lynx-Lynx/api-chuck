@@ -1,1 +1,1 @@
-This app was built via React and Chuck Norris API (https://api.chucknorris.io/).
+Application built via React. Jokes are fetched from Chuck Norris API (https://api.chucknorris.io/)
